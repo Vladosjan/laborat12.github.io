@@ -1,0 +1,64 @@
+ body{ 
+width: 100%; 
+height: 100%; 
+background-color: blue;
+ } 
+
+
+.card {
+width: 200px;
+height: 150px;
+border: 1px solid #ccc;
+margin: 10px;
+text-align: center;
+cursor: pointer;
+display: inline-block;
+}
+span.text1{ 
+font-family: Times New Roman; 
+font-size: 48px; 
+font-weight: bold;  
+color: green;
+} 
+span.text2{ 
+font-family: Times New Roman; 
+font-size: 48px; 
+font-weight: bold;  
+color: red;
+} 
+span.text3{ 
+font-family: Times New Roman; 
+font-size: 48px; 
+font-weight: bold; 
+color: 	#FFFF00;
+} 
+span.text4{ 
+font-family: Times New Roman; 
+font-size: 48px; 
+font-weight: bold;
+color: 	#FF00FF; 
+} 
+span.text5{ 
+font-family: Times New Roman; 
+font-size: 48px; 
+font-weight: bold;
+color: 	#00FF00; 
+} 
+span.text6{ 
+font-family: Times New Roman; 
+font-size: 48px; 
+font-weight: bold; 
+color: 	#00FF00;
+} 
+span.text7{ 
+font-family: Times New Roman; 
+font-size: 48px; 
+font-weight: bold;
+color: 	#FFFFFF; 
+} 
+span.text8{ 
+font-family: Times New Roman; 
+font-size: 48px; 
+font-weight: bold;
+color: #FFFFFF; 
+}
