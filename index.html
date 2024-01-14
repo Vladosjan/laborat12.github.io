@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вивчення Іноземної Мови</title> 
+	 <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ </head>
+<body>
+<div id="app">
+
+
+<h1>Контроль вивчення іноземної мови</h1>
+
+<!-- Вибір рівня складності -->
+<label for="difficulty">Виберіть рівень складності:</label>
+<select id="difficulty">
+    <option value="easy">Легкий</option>
+    <option value="medium">Середній</option>
+    <option value="hard">Складний</option>
+</select>
+
+<!-- Виведення вибраного рівня -->
+<p>Ваш обраний рівень: <span id="selectedDifficulty"></span></p>
+        <div id="cards-container">
+        <!-- Контейнер для карток -->
+    </div>
+    <input type="text" id="translation" placeholder="Введіть переклад">
+    <button id="checkBtn"><span class = "text1">Перевірити</span></button>
+    <label id="progress"></label>
+    <label id="score"><span class = "text2">Вірно: 0 | Невірно: 0</span></label>
+    <button id="showResultBtn"><span class = "text3">Показати результат</span></button>
+</div>
+<script src = "script.js"></script>
+</body>
+</html>
